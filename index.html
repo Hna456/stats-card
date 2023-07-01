@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <title>Stats Preview Card Component | Frontend Mentor</title>
+</head>
+
+<body class="bg-mainBackground">
+    <!--Container Box-->
+    <div class="flex justify-center items-center my-20 lg:h-screen lg:my-0">
+        <!--Container-->
+        <div class="flex flex-col-reverse lg:flex-row lg:h-96 lg:w-xxl ">
+            <!--Content Part-->
+            <div
+                class="flex flex-col space-y-6 items-center text-center flex-1 px-6 bg-cardBackground py-6 w-85 rounded-b-md lg:w-1/2 lg:justify-center lg:text-start lg:px-16 lg:space-y-10 lg:rounded-br-none lg:rounded-tl-md lg:items-start">
+                <h1 class="text-mainHeading text-3xl font-bold ">Get <span class="text-accent">insights</span> that
+                    help
+                    your business grow.
+                </h1>
+                <p class="text-gray-200">Discover the benefits of data analaytics and make better decisions regarding
+                    revenue, customer
+                    experience, and overall efficiency.</p>
+                <div class="flex flex-col space-y-8   lg:flex-row lg:space-x-8 lg:space-y-0 ">
+                    <div class="flex flex-col space-y-2">
+                        <p class="text-xl text-white font-bold">10K+</p>
+                        <p class="text-gray-200  uppercase">Companies</p>
+                    </div>
+                    <div class="flex flex-col space-y-2">
+                        <p class="text-xl text-white font-bold">314</p>
+                        <p class="text-gray-200  uppercase">Templates</p>
+                    </div>
+                    <div class="flex flex-col space-y-2">
+                        <p class="text-xl text-white font-bold">12M+</p>
+                        <p class="text-gray-200  uppercase">Queries</p>
+                    </div>
+                </div>
+            </div>
+            <!--Image Part-->
+            <div class="bg-accent/50 rounded-t-md lg:w-1/2 lg:rounded-br-md lg:rounded-tl-none h-auto">
+                <img src="images/image-header-mobile.jpg" alt="" class="rounded-t-md w-85  mix-blend-overlay lg:hidden">
+                <img src="images/image-header-desktop.jpg" alt=""
+                    class="hidden  mix-blend-overlay lg:block h-96 w-full ">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
